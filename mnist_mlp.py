@@ -1,6 +1,7 @@
-import numpy as np
-import os
+# Ref: https://raw.githubusercontent.com/fchollet/keras/master/examples/mnist_mlp.py
 
+import os
+import numpy as np
 os.environ["THEANO_FLAGS"] = "device=gpu0"
 np.random.seed(1337)  # for reproducibility
 
@@ -14,7 +15,7 @@ from utils import get_output
 # Setting
 batch_size = 128
 nb_classes = 10
-max_epochs = 20
+max_epochs = 1
 nb_hidden_width = 256
 nb_hidden_layers = 3
 
