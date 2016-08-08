@@ -13,7 +13,7 @@ from keras.preprocessing.text import Tokenizer
 
 max_words = 1000
 batch_size = 32
-nb_epoch = 5
+nb_epoch = 20
 
 # Load data
 print('Loading data...')
